@@ -1,7 +1,7 @@
 defmodule CoinChanger do
 
   def calculate(amount) do
-    calculate(amount, [], [5, 2,1])
+    calculate(amount, [], [200, 100, 50, 20, 10, 5, 2,1])
   end
 
   def calculate(amount, change, [_denomination | _other_denominations]) when amount == 0 do

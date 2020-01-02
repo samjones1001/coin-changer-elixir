@@ -28,4 +28,8 @@ defmodule CoinChangerTest do
   test "retuns a 5p and two 2ps for nine" do
     assert CoinChanger.calculate(9) == [5, 2, 2]
   end
+
+  test "returns £2, £1, 50p, 20p, 10p, 5p, 2p, 1p for 388" do
+    assert CoinChanger.calculate(388) == [200, 100, 50, 20, 10, 5, 2, 1]
+  end
 end
