@@ -1,4 +1,4 @@
-# CoinChanger [![Build Status](https://travis-ci.com/samjones1001/coin-changer-elixir.svg?branch=master)](https://travis-ci.com/samjones1001/coin-changer-elixir)
+# CoinChanger [![Build Status](https://travis-ci.com/samjones1001/coin-changer-elixir.svg?branch=master)](https://travis-ci.com/samjones1001/coin-changer-elixir)  [![codecov](https://codecov.io/gh/samjones1001/coin-changer-elixir/branch/master/graph/badge.svg)](https://codecov.io/gh/samjones1001/coin-changer-elixir)
 
 An implementation of the coin changer kata in elixir.
 
