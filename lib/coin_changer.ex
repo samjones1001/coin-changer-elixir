@@ -1,18 +1,5 @@
 defmodule CoinChanger do
-  @moduledoc """
-  Documentation for CoinChanger.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> CoinChanger.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def calculate(amount) do
+    [1]
   end
 end

@@ -1,8 +1,7 @@
 defmodule CoinChangerTest do
   use ExUnit.Case
-  doctest CoinChanger
 
-  test "greets the world" do
-    assert CoinChanger.hello() == :world
+  test "returns a single penny for one" do
+    assert CoinChanger.calculate(1) == [1]
   end
 end
