@@ -1,6 +1,6 @@
-# CoinChanger
+# CoinChanger [![Build Status](https://travis-ci.com/samjones1001/coin-changer-elixir.svg?branch=master)](https://travis-ci.com/samjones1001/coin-changer-elixir)
 
-**TODO: Add description**
+An implementation of the coin changer kata in elixir.
 
 ## Installation
 
