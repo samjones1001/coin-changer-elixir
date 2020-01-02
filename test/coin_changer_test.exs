@@ -25,7 +25,7 @@ defmodule CoinChangerTest do
     assert CoinChanger.calculate(6) == [5, 1]
   end
 
-  test "retuns a 5p and two 2ps for nine" do
+  test "returns a 5p and two 2ps for nine" do
     assert CoinChanger.calculate(9) == [5, 2, 2]
   end
 
